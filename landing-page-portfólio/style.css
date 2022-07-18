@@ -28,11 +28,7 @@ body {
     background: var(--black);
 }
 
-.foto-de-perfil {
-    width: 130px;
-    margin-bottom: 0px;
-    border-radius: 50%;
-}
+
 
 .menu-options {
     display: flex;
