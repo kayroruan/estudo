@@ -1,2 +1,2 @@
 # Testes
- Local para testes, para aprimorar minhas skills
+ Local para testes, para aprimorar minhas skills de trabalho.
