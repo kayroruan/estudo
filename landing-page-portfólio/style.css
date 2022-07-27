@@ -45,7 +45,8 @@ body {
 }
 
 .icone-zap {
-    fill: var(--white);
+    background-color: aqua;
+
 }
 
 .conteudo-principal {
