@@ -2,10 +2,12 @@
 
 body {
   zoom: 0.75;
+  overflow: hidden;
 }
 
 .slider {
   position: relative;
+  width: 100%;
 }
 
 .container h1 {

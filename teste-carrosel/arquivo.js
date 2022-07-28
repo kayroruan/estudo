@@ -4,5 +4,6 @@ $('.slick_slide').slick({
     centerMode: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    infinite: true,
   });
       

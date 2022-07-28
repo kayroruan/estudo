@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    zoom: 0.75;
+}
+
+.faq {
+    top: 1900px;
+    text-align: center;
+    position: relative;
+}
+
+.faq h1 {
+    font-size: 52px;
+    font-family: 'Poppins';
+    color: #7053A4;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.duvidas {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fixo {
+    position: relative;
+    justify-content: space-between;
+    padding: 65px 65px 65px 65px;
+    width: 1487.68px;
+    height: 188px;
+    box-shadow: 4px 4px 20px 4px rgba(182, 182, 182, 0.25);
+    border-radius: 40px;
+    margin-bottom: 72px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.fixo h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #40404B;
+}
+
+#flex {
+    display: flex;
+}
+
+#seta {
+    position: absolute;
+    right: 65px;
+}
+
+#no-flex {
+    margin-top: 62.5px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 150%;
+    color: #60606F;
+    display: none;
+}
