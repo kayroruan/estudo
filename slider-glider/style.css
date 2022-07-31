@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.glider-contain {
+    top: 300px;
+}
+
+.glider {
+    height: 200px;
+    background-color: aqua;
+}
