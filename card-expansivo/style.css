@@ -12,8 +12,41 @@ body {
     zoom: 0.75;
 }
 
+.fotos {
+    position: relative;
+    height: 300px;
+    top: 100px;
+    background-color: #7053A4;
+}
+
+.ft {
+    width: 100px;
+    height: 100px;
+}
+
+#ft1 {
+    position: absolute;
+    left: 250px;
+    top: 25px;
+    background-color: red;
+}
+
+#ft2 {
+    position: absolute;
+    background-color: blue;
+    left: 200px;
+}
+
+#ft3 {
+    background-color: yellow;
+}
+
+#ft4 {
+    background-color: green;
+}
+
 .faq {
-    top: 1900px;
+    top: 300px;
     text-align: center;
     position: relative;
 }
@@ -39,7 +72,7 @@ body {
     justify-content: space-between;
     padding: 65px 65px 65px 65px;
     width: 1487.68px;
-    height: 188px;
+    height: 200px;
     box-shadow: 4px 4px 20px 4px rgba(182, 182, 182, 0.25);
     border-radius: 40px;
     margin-bottom: 72px;
@@ -62,12 +95,12 @@ body {
     display: flex;
 }
 
-#seta {
+.seta {
     position: absolute;
     right: 65px;
 }
 
-#no-flex {
+.no-flex {
     margin-top: 62.5px;
     text-align: left;
     font-family: 'Montserrat';
@@ -78,3 +111,4 @@ body {
     color: #60606F;
     display: none;
 }
+
