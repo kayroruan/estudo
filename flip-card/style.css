@@ -1,0 +1,49 @@
+body {
+    zoom: 0.75;
+}
+
+.flip-container {
+    width: 450px;
+    height: 525.66px;
+    perspective: 1000px;
+  }
+
+.flipper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 4px 4px 20px 4px rgba(182, 182, 182, 0.25);
+    border-radius: 40px;
+}
+
+.flipper img {
+    position: relative;
+    top: 32px;
+    margin-bottom: 20px;
+}
+
+.flip-container:hover .flipper{
+	transform: rotateY(180deg);
+}
+
+.front, .back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+}
+
+.front, .back h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.back {
+    transform: rotateY(180deg);
+    text-align: center;
+    padding-top: 120px;
+}
+
