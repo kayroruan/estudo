@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <form action="https://api.sheetmonkey.io/form/t2i6PocxiFq5SHBmPB4Vdw" method="post" autocomplete="off">
+            <div>
+                <input type="checkbox" id="c-alcool" name="c" value="c-alcool">
+                <label for="c-alcool">Drinks com álcool</label>
+
+            </div>
+
+            <div>
+                <input type="checkbox" id="s-alcool" name="d" value="s-alcool">
+                <label for="s-alcool">Drinks Sem álcool</label>
+            </div>
+
+            <div>
+                <label>Insira seu nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label>Insira seu número</label>
+                <input type="tel" name="celular" id="celular" class="masc-celular"/>
+            </div>
+
+            <div>
+                <label>Data do evento</label>
+                <input type="text" name="data" id="data" class="masc-data"/>
+            </div>
+
+            <div>
+                <label>Quantidade de pessoas</label>
+                <input type="number" name="pessoas" id="pessoas">
+            </div>
+
+            <div>
+                <label>Local do evento</label>
+                <input type="text" name="local" id="local">
+            </div>
+
+            <div>
+                <label>Insira seu e-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label>Por onde você quer receber o orçamento?</label>
+                <label>
+                    <input type="radio" name="contact" id="contact" value="whatsapp">Whatsapp
+                </label>
+                <label>
+                    <input type="radio" name="contact" id="contact" value="email">E-mail
+                </label>
+                <label>
+                    <input type="radio" name="contact" id="contact" value="ligaçao">Por ligaçao
+                </label>
+
+                <button type="submit">enviar</button>
+            </div>
+        </form>
+
+        <script src="./form.js" defer></script>
+        <script src="./jquery-3.6.0.min.js"></script>
+        <script src="./jquery.mask.min.js"></script>
+    </body>
+</html>
