@@ -96,4 +96,8 @@ body {
     .no-flex{
         font-size: 12px;
     }
+    .seta {
+        height: 15px;
+        right: 24px;
+    }
 }
