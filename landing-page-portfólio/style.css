@@ -28,8 +28,6 @@ body {
     background: var(--black);
 }
 
-
-
 .menu-options {
     display: flex;
     gap: 150px;
@@ -45,8 +43,8 @@ body {
 }
 
 .icone-zap {
-    background-color: aqua;
-
+    height: 64px;
+    margin-top: 0;
 }
 
 .conteudo-principal {
