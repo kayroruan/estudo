@@ -1,4 +1,4 @@
-$('.slick_slide').slick({
+func('.slick_slide').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
