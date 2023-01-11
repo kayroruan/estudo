@@ -1,2 +1,3 @@
 # Front-end Projetos
-Local para testes, para aprimorar minhas skills básicas para desenvolvimento front-end.
+Repositório para guardar exercícios de linguagem front-end.
+Aqui estão algumas funções básicas de HTML, CSS e JavaScript principalmente.
