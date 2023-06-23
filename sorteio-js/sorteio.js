@@ -1,6 +1,8 @@
 function gerarNumeroDif(min, max, array) {
     const random = parseInt(Math.random() * (max + 1 - min)) + min
+    //crio uma constante que é definida gerando um numero inteiro onde a resposta pode ser o número máximo
     return array.includes(random) ? gerarNumeroDif(min, max, array) : random
+    // confere, se o numero está no array, caso esteja, não retorna ele
 }
 
 function gerarNumero(i){
@@ -8,8 +10,10 @@ function gerarNumero(i){
         const novoNumero = gerarNumeroDif(1, 60, nums)
         return [...nums, novoNumero]
     }, []).sort((n1, n2) => n1 - n2)
-
+    
     return numeros
-}
 
-console.log(gerarNumero(7))
+    //cria um array novo
+    //gerando números de acordo com a função gerarNumeroDiff, para não haver repetição
+    //ordena de forma crescente
+}
